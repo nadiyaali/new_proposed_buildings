@@ -1,0 +1,72 @@
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  border-radius: 20px;
+}
+
+#title {
+  top: 0;
+  left: 20px;
+  height: 80px;
+  width: 750px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em; 
+  text-align: center;
+}
+
+
+#button {
+  background: "#fff";
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  border-radius: 3px;
+  width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  font-family: 'Arial', sans-serif;
+}
+
+#button a {
+  font-size: 13px;
+  color: #404040;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+#button a:last-child {
+  border: none;
+}
+
+#button a:hover {
+  background-color: #71797E !important;
+  color: #404040;
+}
+
+#button a.active {
+  background-color: #3887be;
+  color: #fff;
+}
+
+#button a.active:hover {
+  background: #3074a4;
+}
